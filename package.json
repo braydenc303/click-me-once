@@ -2,6 +2,7 @@
   "name": "click-me-once",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://click-me-once.herokuapp.com",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

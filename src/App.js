@@ -14,6 +14,7 @@ class App extends Component {
     highscore: 0
   };
 
+  // Create a copy of the array and set all of the clicked values to false.
   resetCards = () => {
     const allCards = [...this.state.cards];
     for(let i = 0; i < allCards.length; i++) {
@@ -32,7 +33,7 @@ class App extends Component {
     console.log (id);
     console.log (clicked);
     console.log (this.state.cards[id-1]);
-
+// Find the array member that was clicked on and set its clicked value to true
     if(clicked === false){
       let clickedCards = [...this.state.cards];
       for(let i = 0; i < clickedCards.length; i++){
@@ -40,11 +41,12 @@ class App extends Component {
           clickedCards[i].clicked = true;
         }
       }
+      //Update state with current values
       this.setState({
         cards : clickedCards
       }
       )
-      
+      //If they clicked all images only once, reset the game
       if(this.state.score === 11) {
         alert("You Won!");
         if(this.state.highscore <= 12) {
@@ -55,12 +57,14 @@ class App extends Component {
               cards: this.resetCards()
             })
         }
+      //If player's score and high score are the same and less than 12 increment both scores
       }else if(this.state.score === this.state.highscore && this.state.highscore < 12){
         this.setState(
           { 
             score: score + 1,
             highscore: highscore + 1
           })
+      //If high score is 12, only increment player's score
       }else if(this.state.highscore <= 12){
           this.setState(
             {
@@ -68,6 +72,7 @@ class App extends Component {
             }
           )
       }
+      //If the player clicks an image that has been clicked before during this round, reset the game.
     } else if(clicked === true){
       this.setState(
         {
@@ -76,14 +81,13 @@ class App extends Component {
         }
       )
     }
+    //Shuffle the images.
     this.setState(
       {cards: _.shuffle(this.state.cards)}
     )
-    console.log(this.state.cards);
   }
 
   render() {
-    console.log(cards);
     return (
       <Wrapper>
         <h1 className = "title">Apples and Oranges:</h1>

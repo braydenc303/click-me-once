@@ -76,6 +76,10 @@ class App extends Component {
         }
       )
     }
+    this.setState(
+      {cards: _.shuffle(this.state.cards)}
+    )
+    console.log(this.state.cards);
   }
 
   render() {

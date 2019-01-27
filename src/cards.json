@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "apple1",
+        "image": "https://static.turbosquid.com/Preview/001245/316/HA/apple-logo-3D-model_200.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "apple2",
+        "image": "https://cdn.macrumors.com/article-new/2017/08/Apple-Logo-200x200.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "apple3",
+        "image": "http://tomgruber.org/wp-content/themes/striking/cache/images/acquistion-e1320093553895-200x200.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "apple4",
+        "image": "https://d33972ka1dfc7m.cloudfront.net/companies/logos/478/apple_500x500_thumb.png?1411680794",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "apple5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Apple_Store_logo.svg/200px-Apple_Store_logo.svg.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "apple6",
+        "image": "http://deeski.com/image/cache/catalog/apple-200x200.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "orange1",
+        "image": "http://www.whatsfresh.co.nz/images/produce/oranges-navel-200x200.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "orange2",
+        "image": "https://pull01-thefruitcompany.netdna-ssl.com/media/catalog/product/cache/1/small_image/200x200/9df78eab33525d08d6e5fb8d27136e95/n/a/navel-oranges_4.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "orange3",
+        "image": "http://www.mosai.cc/news/wp-content/uploads/2013/07/orange-cat-200x200.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "orange4",
+        "image": "https://cdn.tutsplus.com/vector/uploads/legacy/tuts/53_Vector_Orange/preview.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "orange5",
+        "image": "https://swl-d607.kxcdn.com/wp-content/uploads/Navel-Orange-200x200.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "orange6",
+        "image": "http://blood-oranges.com/BloodOranges.jpg",
+        "clicked": false
+    }
+]

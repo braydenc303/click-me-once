@@ -47,7 +47,7 @@ class App extends Component {
       
       if(this.state.score === 11) {
         alert("You Won!");
-        if(this.state.highscore <= 12 && this.state.highscore <= this.state.score) {
+        if(this.state.highscore <= 12) {
           this.setState(
             {
               score: 0,

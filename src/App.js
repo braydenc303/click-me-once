@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ImageCard from "./components/ImageCard";
-import Wrapper from "./components/Wrapper";
+import ImageCard from "./components/imageCard";
+import Wrapper from "./components/wrapper";
 import cards from  "./cards.json";
 import './App.css';
 import _ from "lodash";

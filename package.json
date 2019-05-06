@@ -2,7 +2,7 @@
   "name": "click-me-once",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://braydenc303.github.io/click-me-once/",
+  "homepage": "https://braydenc303.github.io/click-me-once/index.html",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",

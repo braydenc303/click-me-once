@@ -5,8 +5,8 @@
   "homepage": "https://braydenc303.github.io/click-me-once/index.html",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-scripts": "2.1.3"
   },
   "scripts": {

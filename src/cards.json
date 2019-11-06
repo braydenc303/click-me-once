@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "apple1",
-        "image": "https://static.turbosquid.com/Preview/001245/316/HA/apple-logo-3D-model_200.jpg",
+        "image": "./assets/images/apple-logo-3D-model_200.jpg",
         "clicked": false
     },
     {
@@ -38,7 +38,7 @@
     {
         "id": 7,
         "name": "orange1",
-        "image": "http://www.whatsfresh.co.nz/images/produce/oranges-navel-200x200.jpg",
+        "image": "http://clipartmag.com/images/orange-slices-clipart-12.jpg",
         "clicked": false
     },
     {
@@ -50,7 +50,7 @@
     {
         "id": 9,
         "name": "orange3",
-        "image": "http://www.mosai.cc/news/wp-content/uploads/2013/07/orange-cat-200x200.jpg",
+        "image": "https://www.gofarmz.com/images/products/280x280/nagpur-orange-250x250.jpg",
         "clicked": false
     },
     {
